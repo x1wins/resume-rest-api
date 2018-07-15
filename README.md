@@ -18,3 +18,8 @@ rails generate model Ineterest content:text home:references
 rails generate model Award title:string home:references
 rails generate model User name:string
 ```
+
+### jbuilder vs active serializer
+https://gist.github.com/yuki24/2f884d9e27c6e8998ad4
+* I used jbuilder
+
