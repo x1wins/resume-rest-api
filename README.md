@@ -25,6 +25,7 @@ https://gist.github.com/yuki24/2f884d9e27c6e8998ad4
 
 ### jbuilder tutorial
 https://richonrails.com/articles/getting-started-with-jbuilder
+https://devblast.com/b/jbuilder
 
 
 
