@@ -16,4 +16,5 @@ rails generate model Education school:string degree:string period:string content
 rails generate model Skill name:string home:references
 rails generate model Ineterest content:text home:references
 rails generate model Award title:string home:references
+rails generate model User name:string
 ```
