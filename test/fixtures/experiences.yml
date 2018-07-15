@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  job: MyString
+  company: MyString
+  period: MyString
+  content: MyText
+  home: one
+
+two:
+  job: MyString
+  company: MyString
+  period: MyString
+  content: MyText
+  home: two
