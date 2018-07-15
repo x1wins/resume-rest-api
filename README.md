@@ -28,6 +28,14 @@ https://richonrails.com/articles/getting-started-with-jbuilder
 https://devblast.com/b/jbuilder
 
 
-
+### curl
+```
+$ rake routes
+Prefix Verb URI Pattern             Controller#Action
+homes   GET /homes(.:format)        homes#index
+home    GET /homes/:id(.:format)    homes#show
+$ curl -X GET http://localhost:3001/homes/1.json
+$ curl -X GET http://localhost:3001/homes.json
+```
 
 
