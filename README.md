@@ -23,3 +23,10 @@ rails generate model User name:string
 https://gist.github.com/yuki24/2f884d9e27c6e8998ad4
 * I used jbuilder
 
+### jbuilder tutorial
+https://richonrails.com/articles/getting-started-with-jbuilder
+
+
+
+
+
