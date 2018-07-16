@@ -29,8 +29,8 @@ json.skills @home.skills do |skill|
   json.name skill.name
 end
 
-json.ineterests @home.ineterests do |ineterest|
-  json.content ineterest.content
+json.ineterest do
+  json.content @home.ineterest.content
 end
 
 json.awards @home.awards do |award|

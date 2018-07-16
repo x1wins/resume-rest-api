@@ -5,6 +5,6 @@ class Home < ApplicationRecord
   has_many :experiences
   has_many :educations
   has_many :skills
-  has_many :ineterests
+  has_one :ineterest
   has_many :awards
 end
