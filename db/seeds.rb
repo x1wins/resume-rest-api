@@ -25,14 +25,19 @@ educations = Education.create([{ school: 'dept 1', degree: 'this is the first de
                                { school: 'dept 1', degree: 'this is the first dept', period: "2017~2019", content: "hello world", home: home},
                                { school: 'dept 1', degree: 'this is the first dept', period: "2017~2019", content: "hello world", home: home}])
 
-skills = Skill.create([{ name: 'dept 1', home: home},
-                       { name: 'dept 1', home: home},
-                       { name: 'dept 1', home: home},
-                       { name: 'dept 1', home: home},])
+skills = Skill.create([{ name: 'Mobile-First, Responsive Design', home: home},
+                                { name: 'Cross Browser Testing & Debugging', home: home},
+                                { name: 'Cross Functional Teams', home: home},
+                                { name: 'Agile Development & Scrum', home: home}])
 
-ineterest = Ineterest.create({ content: 'dept 1', home: home})
+ineterest = Ineterest.create({ content: 'Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
 
-awards = Award.create([{ title: 'dept 1', home: home},
-                       { title: 'dept 1', home: home},
-                       { title: 'dept 1', home: home},
-                       { title: 'dept 1', home: home},])
+When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.', home: home})
+
+awards = Award.create([{ title: 'Google Analytics Certified Developer', home: home},
+                                { title: 'Mobile Web Specialist - Google Certification', home: home},
+                                { title: '1stPlace - University of Colorado Boulder - Emerging Tech Competition 2009', home: home},
+                                { title: '1stPlace - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)', home: home},
+                                { title: '2ndPlace - University of Colorado Boulder - Emerging Tech Competition 2008', home: home},
+                                { title: '1stPlace - James Buchanan High School - Hackathon 2006', home: home},
+                                { title: '3rdPlace - James Buchanan High School - Hackathon 2005', home: home},])
