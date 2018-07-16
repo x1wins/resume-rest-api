@@ -1,14 +1,14 @@
 json.username @home.user.name
 
-json.abouts @home.abouts do |about|
-  json.name about.name
-  json.address about.address
-  json.email about.email
-  json.content about.content
-  json.facebook about.facebook
-  json.twitter about.twitter
-  json.linkedin about.linkedin
-  json.github about.github
+json.about do
+  json.name @home.about.name
+  json.address @home.about.address
+  json.email @home.about.email
+  json.content @home.about.content
+  json.facebook @home.about.facebook
+  json.twitter @home.about.twitter
+  json.linkedin @home.about.linkedin
+  json.github @home.about.github
 end
 
 json.experiences @home.experiences do |experience|
